@@ -1,0 +1,22 @@
+from setuptools import find_packages, setup
+
+setup(name='clustemg',
+      packages=find_packages(),
+      version='0.1.0',
+      description='Aux functions for clustering in emg pilot data',
+      url='http://github.com/zekearneodo/ceciestunepipe',
+      author='Zeke Arneodo',
+      author_email='earneodo@ucsd.edu',
+      license='MIT',
+      install_requires=['numpy',
+                        'matplotlib',
+                        'pandas>=0.23',
+                        'scipy',
+                        'tqdm',
+                        'h5py',
+                        'scikit-learn',
+                        'umap-learn',
+                        'hdbscan',
+                        'tensorflow',
+                       ],
+      zip_safe=False)
