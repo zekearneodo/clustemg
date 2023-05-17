@@ -18,5 +18,6 @@ setup(name='clustemg',
                         'umap-learn',
                         'hdbscan',
                         'tensorflow',
+                        'seaborn',
                        ],
       zip_safe=False)
